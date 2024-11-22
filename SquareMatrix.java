@@ -51,10 +51,6 @@ public class SquareMatrix {
         this.matrix = matrix;
     }
 
-    public int getSize() {return size;}
-
-    public double[][] getMatrix() {return matrix;}
-
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
