@@ -1,5 +1,15 @@
 public enum FormTypes {
-    POSITIVE,
-    NEGATIVE,
-    NONE
+    POSITIVE("Положительная"),
+    NEGATIVE("Отрицательная"),
+    NONE("Неопределенная");
+
+    private String rusName;
+
+    FormTypes(String rusName) {
+        this.rusName = rusName;
+    }
+
+    public String getRusName() {
+        return rusName;
+    }
 }
